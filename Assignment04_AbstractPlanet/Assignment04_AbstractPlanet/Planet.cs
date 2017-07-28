@@ -8,12 +8,12 @@ using System.Threading.Tasks;
  * Name: Akshay Patel
  * 300918514
  * Comp 123 Assignment 04 ABSTRACT PLANET
- * Version 0.4 - Added to Override method ToString.
+ * Version 0.4 - Edited public keyword int he class.
  */
 
 namespace Assignment04_AbstractPlanet
 {
-    abstract class Planet
+    public abstract class Planet
     {
         // Private Instance Variables
         private double _diameter;
