@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Akshay Patel
  * 300918514
  * Comp 123 Assignment 04 ABSTRACT PLANET
- * Version 2.2 - Added Interface Method.
+ * Version 2.2 - Added Constructor.
  */
 namespace Assignment04_AbstractPlanet
 {
@@ -29,11 +29,7 @@ namespace Assignment04_AbstractPlanet
         public TerrestialPlanet(string name, double diameter, double mass, bool oxygen, int moonCount) : base (name, diameter, mass)
         {
             _oxygen = oxygen;
+            
         } 
-        // Interface Method
-        public bool HasMoons()
-        {
-            if(_moon)
-        }
     }
 }
