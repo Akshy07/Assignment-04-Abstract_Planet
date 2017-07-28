@@ -8,14 +8,14 @@ using System.Threading.Tasks;
  * Name: Akshay Patel
  * 300918514
  * Comp 123 Assignment 04 ABSTRACT PLANET
- * Version 2.2 - Added Constructor.
+ * Version 2.3 - Added Interface methods and implemented .
  */
 namespace Assignment04_AbstractPlanet
 {
     /// <summary>
     /// This is a public TerrestialPlanet subclass.
     /// </summary>
-    public class TerrestialPlanet : Planet
+    public class TerrestialPlanet : Planet, IHasMoons, IHabitable
     {
         // Private Instance Variables
         private bool _oxygen;
@@ -31,5 +31,27 @@ namespace Assignment04_AbstractPlanet
             _oxygen = oxygen;
             
         } 
+        public bool Habitable()
+        {
+            if(_oxygen == true)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool HasMoons()
+        {
+            if(MoonCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
