@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Akshay Patel
  * 300918514
  * Comp 123 Assignment 04 ABSTRACT PLANET
- * Version 0.4 - Addaed constructor.
+ * Version 0.4 - Added to Override method ToString.
  */
 
 namespace Assignment04_AbstractPlanet
@@ -123,5 +123,9 @@ namespace Assignment04_AbstractPlanet
         }
 
         // Override Method
+        public override string ToString()
+        {
+            return string.Format("Name of the planet is " + Name + ". It has diameter " + Diameter + "kilometer. Mass of the planet is" + Mass + "Kgs");
+        }
     }
 }
