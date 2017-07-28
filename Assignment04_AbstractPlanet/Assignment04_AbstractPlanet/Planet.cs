@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Akshay Patel
  * 300918514
  * Comp 123 Assignment 04 ABSTRACT PLANET
- * Version 0.2 - Added Private Instance Variables .
+ * Version 0.3 - Added Public Properties .
  */
 
 namespace Assignment04_AbstractPlanet
