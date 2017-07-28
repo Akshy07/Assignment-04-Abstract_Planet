@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Akshay Patel
  * 300918514
  * Comp 123 Assignment 04 ABSTRACT PLANET
- * Version 1.2 - Added to Constructor. 
+ * Version 1.3 - Derived the interfaces. 
  */
 
 namespace Assignment04_AbstractPlanet
@@ -34,6 +34,34 @@ namespace Assignment04_AbstractPlanet
             _type = type;
             _moonCount = moonCount;
             _ringCount = ringCount;
+        }
+
+        // Interface Method
+        //HasMoons
+        public bool HasMoons()
+        {
+            if (MoonCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        //HasRings
+        public bool HasRings()
+        {
+            if (RingCount > 0)
+            {
+                return true;
+            }
+            else 
+            {
+                return false;
+            }
+
         }
     }
 }
