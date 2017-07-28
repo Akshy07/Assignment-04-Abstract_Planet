@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Akshay Patel
  * 300918514
  * Comp 123 Assignment 04 ABSTRACT PLANET
- * Version 1.3 - Derived the interfaces. 
+ * Version 1.3 - Derived the interfaces and implemented. 
  */
 
 namespace Assignment04_AbstractPlanet
@@ -16,7 +16,7 @@ namespace Assignment04_AbstractPlanet
     /// <summary>
     /// This is a public GiantPlanet subclass.
     /// </summary>
-    public class GiantPlanet : Planet
+    public class GiantPlanet : Planet, IHasMoons, IHasRings
     {
         // Private Instance Variables
         private string _type;

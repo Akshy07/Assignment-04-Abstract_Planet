@@ -8,11 +8,11 @@ using System.Threading.Tasks;
  * Name: Akshay Patel
  * 300918514
  * Comp 123 Assignment 04 ABSTRACT PLANET
- * Version C - Created IHasRings Interface method.
+ * Version C - Edited IHasRings Interface method.
  */
 namespace Assignment04_AbstractPlanet
 {
-    interface IHasRings
+    public interface IHasRings
     {
         bool HasRings();
     }
