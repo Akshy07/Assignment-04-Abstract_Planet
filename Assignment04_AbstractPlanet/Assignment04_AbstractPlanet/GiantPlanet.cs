@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Akshay Patel
  * 300918514
  * Comp 123 Assignment 04 ABSTRACT PLANET
- * Version 1.0 - This is a public GiantPlanet subclass. 
+ * Version 1.1 - Added to private instance variable. 
  */
 
 namespace Assignment04_AbstractPlanet
@@ -19,6 +19,9 @@ namespace Assignment04_AbstractPlanet
     public class GiantPlanet
     {
         // Private Instance Variables
+        private string _type;
+        private int _moonCount;
+        private int _ringCount;
 
         //Constructor =========================================
     }
