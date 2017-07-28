@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Akshay Patel
  * 300918514
  * Comp 123 Assignment 04 ABSTRACT PLANET
- * Version 0.3 - Added Public Properties .
+ * Version 0.4 - Addaed constructor.
  */
 
 namespace Assignment04_AbstractPlanet
@@ -108,6 +108,19 @@ namespace Assignment04_AbstractPlanet
         } 
 
         // Constructors =============================================
+        ///<summary>
+        ///This is the main constructor of the Abstract Planet class.
+        ///It takes three arguments - name(string), diameter(double) and mass(double)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="diameter"></param>
+        /// <param name="mass"></param>
+        public Planet(string name, double diameter, double mass)
+        {
+            _name = name;
+            _diameter = diameter;
+            _mass = mass;
+        }
 
         // Override Method
     }
