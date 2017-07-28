@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * 300918514
  * Comp 123 Assignment 04 ABSTRACT PLANET
  * Version 4.0 - This is a driver .
- * version 4.1 - Added to the driver class
+ * version 4.2 - Added toStirng to terrestialPlanet part.
  */
 
 namespace Assignment04_AbstractPlanet
@@ -23,7 +23,7 @@ namespace Assignment04_AbstractPlanet
             Console.WriteLine();
             Console.WriteLine();
             TerrestialPlanet terrestialPlanet = new TerrestialPlanet("Mars", 105236, 1000036, true, 2);
-            Console.WriteLine();
+            Console.WriteLine(terrestialPlanet.ToString());
             Console.WriteLine();
             WaitForAnyKey();
         }
